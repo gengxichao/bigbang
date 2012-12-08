@@ -1,0 +1,42 @@
+@import "bootstrap";
+
+body {
+    background-color: #ededed;
+}
+
+#topbar {
+    height: 162px;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+
+#carousel {
+    height: 200px;
+    background-color: #0ee;
+    margin-bottom: 20px;
+}
+
+#footer {
+    height: 50px;
+    background-color: #ee5f5b;
+}
+
+.room {
+    height: 350px;
+    background-color: #808080;
+    margin-bottom: 20px;
+    display: inline-block;
+    @include ie7-inline-block;
+
+    & .title {
+        float: left;
+        padding: 5px;
+        margin-top: 50px;
+        background-color: #fff;
+        font-size: 2em;
+        line-height: 50px;
+        height: 50px;
+        width: 200px;
+        @include box-shadow(3px 5px 20px #000);
+    }
+}
