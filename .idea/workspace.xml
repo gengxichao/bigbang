@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c18510-3962-44aa-8436-15a4f9e02e04" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="bigbang.iws" />
@@ -25,16 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="23" selection-start="1541" selection-end="1541" vertical-scroll-proportion="1.0470085">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bigbang.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="23" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+            <state line="111" column="48" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.67948717">
               <folding />
             </state>
           </provider>
@@ -355,14 +347,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+        <state line="54" column="30" selection-start="821" selection-end="821" vertical-scroll-proportion="0.5041322">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="23" selection-start="1541" selection-end="1541" vertical-scroll-proportion="1.0470085">
+        <state line="111" column="48" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.67948717">
           <folding />
         </state>
       </provider>
