@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c18510-3962-44aa-8436-15a4f9e02e04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
     </list>
     <ignored path="bigbang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +22,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="-10.0">
+            <state line="49" column="23" selection-start="1541" selection-end="1541" vertical-scroll-proportion="1.0470085">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigbang.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bigbang.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="23" selection-start="457" selection-end="457" vertical-scroll-proportion="0.59917355">
+            <state line="29" column="23" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,8 +55,8 @@
       <list>
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/assets/stylesheets/bootstrap/bootstrap.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -357,16 +353,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="-10.0">
+        <state line="29" column="23" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="457" selection-end="457" vertical-scroll-proportion="0.59917355">
+        <state line="49" column="23" selection-start="1541" selection-end="1541" vertical-scroll-proportion="1.0470085">
           <folding />
         </state>
       </provider>
