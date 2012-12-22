@@ -16,6 +16,13 @@ img {
   }
 }
 
+#footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+  height: 50px;
+  text-align: center;
+}
+
 #yuyin {
 
   #topbar {
@@ -31,6 +38,13 @@ img {
     }
   }
 
+  #footer{
+    margin-top: 30px;
+    color: #eee;
+    background-color: rgb(0, 0, 10);
+    @include border-radius(10px);
+  }
+
   #content {
 
     background: rgb(5, 5, 5);
@@ -39,14 +53,15 @@ img {
 
     .span10 {
       @include border-radius(5px);
-      margin-top: 5px;
+      margin-top: 20px;
       background-color: #efefef;
     }
 
-    .span1 {
+    .span2 {
+      @include border-radius(7px);
       height: 700px;
-      margin-top: 100px;
-      margin-left: 120px;
+      margin-top: 20px;
+      margin-left: 1px;
       background: #050505;
       border-left: 1px solid #545454;
       border-right: 1px solid #545454;
@@ -70,12 +85,14 @@ img {
     .text {
       img {
         float: left;
-        margin: 0 0 5px 10px;
+        margin: -5px 20px;
         background-color: #000;
-        height: 278px;
-        width: 450px;
+        height: 387px;
+        width: 535px;
       }
-      height: 278px;
+      margin: 15px 0;
+      font-size: 30px;
+      height: 387px;
       width: 100%;
       display: block;
       margin-bottom: 20px;
@@ -119,10 +136,6 @@ img {
   }
 
   #footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    padding-top: 10px;
-    height: 50px;
-    text-align: center;
     color: #778899;
   }
 
