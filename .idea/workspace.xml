@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c18510-3962-44aa-8436-15a4f9e02e04" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yuyin/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuyin/index.html" afterPath="$PROJECT_DIR$/yuyin/index.html" />
     </list>
     <ignored path="bigbang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +25,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bigbang.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
+      <file leaf-file-name="news.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yuyin/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="30" selection-start="880" selection-end="880" vertical-scroll-proportion="0.55785125">
+            <state line="85" column="0" selection-start="3019" selection-end="3019" vertical-scroll-proportion="0.7863248">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yuyin/index.html">
+      <file leaf-file-name="bigbang.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="40" selection-start="1460" selection-end="1460" vertical-scroll-proportion="-13.625">
+            <state line="50" column="15" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,6 +62,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/yuyin/index.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" />
+        <option value="$PROJECT_DIR$/yuyin/news.html" />
       </list>
     </option>
   </component>
@@ -176,28 +177,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigbang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigbang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,11 +321,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/bootstrap/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.24263674" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scripts/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="37" selection-start="154" selection-end="154" vertical-scroll-proportion="0.10518934" />
@@ -431,21 +405,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="14" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.79134464">
+        <state line="34" column="10" selection-start="495" selection-end="1156" vertical-scroll-proportion="0.72649574">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yuyin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="40" selection-start="1460" selection-end="1460" vertical-scroll-proportion="-13.625">
+        <state line="24" column="18" selection-start="762" selection-end="762" vertical-scroll-proportion="0.51282054">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="30" selection-start="880" selection-end="880" vertical-scroll-proportion="0.55785125">
+        <state line="50" column="15" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yuyin/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="3019" selection-end="3019" vertical-scroll-proportion="0.7863248">
           <folding />
         </state>
       </provider>
