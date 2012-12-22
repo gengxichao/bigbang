@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c18510-3962-44aa-8436-15a4f9e02e04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yuyin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/logo.png" afterPath="$PROJECT_DIR$/static/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" afterPath="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuyin/index.html" afterPath="$PROJECT_DIR$/yuyin/index.html" />
     </list>
     <ignored path="bigbang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,19 +23,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yuyin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-20.5">
+            <state line="32" column="34" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.6837607">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigbang.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bigbang.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="17" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.6404959">
+            <state line="63" column="26" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="-2.278481">
               <folding />
             </state>
           </provider>
@@ -60,10 +65,10 @@
       <list>
         <option value="$PROJECT_DIR$/assets/stylesheets/bootstrap/bootstrap.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/bootstrap/responsive.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/yuyin/index.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/bigbang.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/yuyin/index.html" />
       </list>
     </option>
   </component>
@@ -382,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="226" selection-end="226" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="65" selection-start="335" selection-end="335" vertical-scroll-proportion="0.24793388">
@@ -431,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yuyin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-20.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="271" column="21" selection-start="9189" selection-end="9189" vertical-scroll-proportion="0.8498623">
@@ -447,7 +438,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/bigbang.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="17" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.6404959">
+        <state line="63" column="26" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="-2.278481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yuyin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="34" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.6837607">
           <folding />
         </state>
       </provider>
