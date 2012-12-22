@@ -1,11 +1,12 @@
 @import "bootstrap";
+@import "bootstrap-responsive";
 
 body {
     background-color: #ededed;
 }
 
 #topbar {
-    height: 120px;
+    min-height: 120px;
     background-color: #eee;
     margin-top: 20px;
 
