@@ -30,15 +30,15 @@ img {
 #yuyin {
 
   #topbar {
-    height: 100px;
+    height: 85px;
     img {
       display: inline-block;
-      height: 90px;
-      margin-top: 5px;
+      height: 70px;
+      margin-top: 8px;
     }
 
     .nav {
-      margin-top: 60px;
+      margin-top: 47px;
     }
   }
 
@@ -65,18 +65,19 @@ img {
 
     background: rgb(5, 5, 5);
     background: url(yuyin.jpg);
-    background-repeat: none;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
 
     .span10 {
       @include border-radius(5px);
-      margin-top: 20px;
+      margin-top: 15px;
       background-color: #efefef;
     }
 
     .span2 {
       @include border-radius(7px);
       height: 700px;
-      margin-top: 20px;
+      margin-top: 15px;
       margin-left: 1px;
       background: #050505;
       border-left: 1px solid #545454;
@@ -90,26 +91,31 @@ img {
     }
 
     header{
-      margin: 25px;
-      margin-left: 10px;
-      padding-bottom: 30px;
-      border-bottom: 1px solid #DDD;
+      margin-top: 40px;
+      margin-left: 40px;
       font-weight: bold;
-      font-size: 50px;
+      font-size: 36px;
+      font-family: Microsoft Yahei;
+      p{
+        margin-top: 15px;
+        font-size: 16px;
+      }
     }
+
 
     .text {
       img {
         float: left;
-        margin: -5px 20px;
+        margin: 0;
         background-color: #000;
         height: 387px;
         width: 535px;
       }
-      margin: 15px 0;
+      margin-top: 30px;
+      margin-left: 40px;
       font-size: 30px;
       height: 387px;
-      width: 100%;
+      width: 930px;
       display: block;
       margin-bottom: 20px;
     }
