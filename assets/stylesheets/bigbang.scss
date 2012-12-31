@@ -14,6 +14,7 @@ img {
   img {
     vertical-align: middle;
   }
+  z-index: $zindexFixedNavbar;
 }
 
 #footer {
@@ -27,9 +28,73 @@ img {
   height: 450px;
 }
 
+.history > li {
+  position: relative;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  border-left: 3px solid #fff;
+
+  .content {
+    @include border-radius(5px);
+    @include box-shadow(2px 2px 3px #aaa);
+    background-color: #fff;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 1;
+    h1, p {
+      background-color: #fff;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 40px;
+      left: -55px;
+      width: 10px;
+      height: 10px;
+      @include border-radius(20px);
+      border: 10px solid #fff;
+      background-color: #00ffff;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 30px;
+      top: 0;
+      bottom: 0;
+      width: 50px;
+      background-color: #00ffff;
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 47px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+    @include rotate(45deg);
+    @include box-shadow(2px 2px 3px #aaa);
+    background-color: #fff;
+  }
+}
+
 #yuyin {
 
+  #zp {
+    padding: 10px;
+  }
+
   #topbar {
+    background-color: #ededed;
+    width: 100%;
     height: 85px;
     img {
       display: inline-block;
@@ -40,6 +105,12 @@ img {
     .nav {
       margin-top: 47px;
     }
+
+    position: fixed;
+    top: 0;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
   }
 
   #myCarousel {
@@ -62,7 +133,7 @@ img {
   }
 
   #content {
-
+    margin-top: 85px;
     background: rgb(5, 5, 5);
     background: url(yuyin.jpg);
     background-attachment: fixed;
