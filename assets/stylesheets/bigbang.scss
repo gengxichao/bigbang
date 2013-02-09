@@ -3,6 +3,8 @@
 
 body {
   background-color: #ededed;
+  font-family: "Microsoft Yahei", "Lucida Grande", sans-serif;
+  font-size: 15px;
 }
 
 img {
@@ -14,7 +16,6 @@ img {
   img {
     vertical-align: middle;
   }
-  z-index: $zindexFixedNavbar;
 }
 
 #footer {
@@ -28,73 +29,9 @@ img {
   height: 450px;
 }
 
-.history > li {
-  position: relative;
-  list-style-type: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-right: 10px;
-  border-left: 3px solid #fff;
-
-  .content {
-    @include border-radius(5px);
-    @include box-shadow(2px 2px 3px #aaa);
-    background-color: #fff;
-    padding-top: 10px;
-    padding-right: 100px;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    margin-left: 40px;
-    position: relative;
-    z-index: 1;
-    h1, p {
-      background-color: #fff;
-    }
-    &:before {
-      content: '';
-      position: absolute;
-      top: 40px;
-      left: -55px;
-      width: 10px;
-      height: 10px;
-      @include border-radius(20px);
-      border: 10px solid #fff;
-      background-color: #00ffff;
-    }
-
-    &:after {
-      content: '';
-      position: absolute;
-      right: 30px;
-      top: 0;
-      bottom: 0;
-      width: 50px;
-      background-color: #00ffff;
-    }
-  }
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 47px;
-    left: 25px;
-    width: 34px;
-    height: 34px;
-    @include rotate(45deg);
-    @include box-shadow(2px 2px 3px #aaa);
-    background-color: #fff;
-  }
-}
-
 #yuyin {
 
-  #zp {
-    padding: 10px;
-  }
-
   #topbar {
-    background-color: #ededed;
-    width: 100%;
     height: 85px;
     img {
       display: inline-block;
@@ -105,13 +42,7 @@ img {
     .nav {
       margin-top: 47px;
     }
-
-    position: fixed;
-    top: 0;
-
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-
-  }
+   }
 
   #myCarousel {
     margin-top: 20px;
@@ -132,34 +63,23 @@ img {
     @include border-radius(10px);
   }
 
-  .content-shadow {
-    -webkit-box-shadow:0px 0px 100px #00FFFF;
-    -moz-box-shadow:0px 0px 100px #00FFFF;
-    box-shadow:0px 0px 100px #00FFFF;
-
-  }
-
-
   #content {
-    margin-top: 85px;
+
     background: rgb(5, 5, 5);
-    background: url(yuyin.jpg);
-    background-position: -15px 73px;
+    background: url(imgs/yuyin.jpg);
     background-attachment: fixed;
     background-repeat: repeat-x;
 
-
-
     .span10 {
       @include border-radius(5px);
-      margin-top: 30px;
+      margin-top: 15px;
       background-color: #efefef;
     }
 
     .span2 {
       @include border-radius(7px);
       height: 700px;
-      margin-top: 30px;
+      margin-top: 15px;
       margin-left: 1px;
       background: #050505;
       border-left: 1px solid #545454;
@@ -186,39 +106,26 @@ img {
 
 
     .text {
-      .text-img {
+      img {
         float: left;
         margin: 0;
+        background-color: #000;
         height: 387px;
         width: 535px;
-        background-color: #000;
-      }
-      .text-topic {
-        padding-left: 10px;
-        float: left;
-        margin-top: 5px;
-        margin-left: 18px;
-        vertical-align: top;
-        padding-bottom: 15px;
-        width: 350px;
-        border-bottom: 1px solid grey;
-        font-size: 30px;
-        font-weight: bolder;
       }
       margin-top: 30px;
       margin-left: 40px;
       font-size: 30px;
       height: 387px;
-      width: 920px;
+      width: 930px;
       display: block;
       margin-bottom: 20px;
     }
   }
 
 }
-
+/*
 #index {
-
   #topbar {
     background-color: #eee;
     min-height: 120px;
@@ -277,4 +184,98 @@ img {
     }
   }
 
+}*/
+
+#index {
+  background: url(imgs/index/bg.jpg)  no-repeat 50% 100px black;
+  #logo {
+    display: block;
+    margin: 0 auto;
+  }
+  header {
+    margin-top: -15px;
+  }
+  .dropdown-menu li {
+    margin-top: 2px;
+  }
+  .news,.knowledge {
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 47px;
+  }
+  .main {
+    height: 547px;
+    background: #EDEDED url(imgs/index/mainbg.png) no-repeat -200px -50px;
+    -webkit-box-shadow:0px 0px 20px #01FFFF;
+    -moz-box-shadow:0px 0px 20px #01FFFF;
+    box-shadow:0px 0px 20px #01FFFF;
+  }
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .line-up {
+    height: 25px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow:0px 5px 10px #292929;
+    -moz-box-shadow:0px 5px 10px #292929;
+    box-shadow:0px 5px 10px #292929;
+    opacity: 1;
+  }
+  .line-down {
+    height: 25px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow:0px -5px 10px #292929;
+    -moz-box-shadow:0px -5px 10px #292929;
+    box-shadow:0px -5px 10px #292929;
+  }
+  .side-list {
+    margin: 15px 0;
+    width: 100%;
+    height: 420px;
+  }
+  .title {
+    margin-left: 30px;
+    color: white;
+  }
+  .news-list {
+    display: block;
+    margin: 0 auto;
+    width: 235px;
+    margin-top: 20px;
+    color: white;
+  }
+  .news-list li {
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom:5px;
+    border-bottom: 1px dashed #a9a9a9;
+  }
+  .news-list li:last-child {
+    border: none;
+  }
+  #myCarousel {
+    margin-top: 30px;
+    height: 380px;
+  }
+  .pictext-list {
+    margin: 0 20px;
+  }
+  .pictext li:nth-of-type(odd) {
+    float: right;
+  }
+  .pictext li {
+    line-height: 35px;
+  }
+  .news-list a:link {text-decoration: none;color:white;}
+  .news-list a:visited {text-decoration: none;color:white;}
+  .news-list a:hover {text-decoration: underline;color:#d3d3d3;}
+  .news-list a:active {text-decoration: underline;color:#d3d3d3;}
 }
